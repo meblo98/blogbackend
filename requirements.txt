@@ -16,3 +16,4 @@ django-js-asset==3.1.2
 sqlparse==0.5.3
 
 # Ajoute ici d'autres dépendances utiles à ton projet
+gunicorn
