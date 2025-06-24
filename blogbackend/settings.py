@@ -103,11 +103,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'blogbackend.wsgi.application'
 
 
-ALLOWED_HOSTS = [
-    'blogbackend-kjrt.onrender.com',
-    'localhost',
-    '127.0.0.1'
-]
+ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
