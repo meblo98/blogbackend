@@ -106,16 +106,6 @@ WSGI_APPLICATION = 'blogbackend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-# settings.py
-import os
-from pathlib import Path
 
 # Configuration conditionnelle selon l'environnement
 if os.getenv('DJANGO_ENV') == 'production':
